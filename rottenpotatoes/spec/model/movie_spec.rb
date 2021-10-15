@@ -1,4 +1,6 @@
 require 'rails_helper'
+require 'simplecov'
+require 'simplecov-rcov'
 
 describe Movie do
     describe 'Find_movies_with_same_director' do
@@ -31,8 +33,6 @@ describe Movie do
             
             expect(similar_movies).to_not include(['The Arrival', 'Predestination', 'Alien' ])
         end
-        
-        
         
     end
 end
