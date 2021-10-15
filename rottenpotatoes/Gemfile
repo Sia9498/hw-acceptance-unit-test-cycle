@@ -19,6 +19,7 @@ group :test do
   gem 'cucumber-rails-training-wheels'
   gem 'simplecov'
   gem 'simplecov-rcov'
+  gem 'factory_girl_rails'
 end
 group :production do
   gem 'pg'
